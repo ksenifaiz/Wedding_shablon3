@@ -92,7 +92,7 @@ tick();
 setInterval(tick, 1000);
 
 // ====== RSVP (демо-отправка) ======
-const GAS_URL = "ВСТАВЬ_СЮДА_URL_ИЗ_GOOGLE_APPS_SCRIPT";
+const GAS_URL = "https://script.google.com/macros/s/AKfycby-KKSw2tenthI3HKjT9DREKieJWD1aATeGaDmXlYOCGbvlKdTOF6j8nSLRQVGiH9oa/exec";
 const form = document.getElementById("rsvpForm");
 
 form?.addEventListener("submit", async (e) => {
@@ -133,4 +133,5 @@ form?.addEventListener("submit", async (e) => {
     //   headers: { "Content-Type": "application/json" },
     //   body: JSON.stringify(data)
     // });
+
 });
