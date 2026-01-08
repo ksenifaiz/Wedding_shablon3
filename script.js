@@ -104,9 +104,6 @@ form?.addEventListener("submit", async (e) => {
     try {
         const res = await fetch(GAS_URL, {
             method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
             body: JSON.stringify(data)
         });
 
@@ -135,4 +132,5 @@ form?.addEventListener("submit", async (e) => {
     // });
 
 });
+
 
